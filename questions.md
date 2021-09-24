@@ -5,6 +5,9 @@ Question Which of the following comprehension statements will result in a genera
 3. ```( item for item in items if is_prime(item) )```
 4. ```([ item for item in items if is_prime(item) ])```
 
+Question Bonus: the generator above is a:
+1. generator function
+2. generator object
 
 Question What is the result of running the following code?
 ```python
@@ -35,7 +38,6 @@ list(roulette(17))
 2. Exception: "You got blowed up"
 3. "hurray..." with [17, 12, 11, 6, 5]
 4. "hurray..." with [17, 12, 10, 6, 5]
-5. My computer caught fire
 
 
 Question Given the following two generator definitions:
@@ -69,8 +71,11 @@ After the code is run, mylist contains which?
 1. A generator for all of the positive odd integers
 2. A list of all of the positive odd integers
 3. An empty list
-4. None of the above
+4. Unknown because it would take infinite memory
 
+Question Bonus: the generator above, odds, is a:
+1. generator function
+2. generator object
 
 Question Given this code:
 ```python
