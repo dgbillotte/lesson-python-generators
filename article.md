@@ -3,7 +3,7 @@
 Today we are going to discuss the creation and use of generators in python. We will first examine what a generator is and why they are useful. Next we will look at two different ways to create generators. Finally, we will wrap up with a problem and several different ways that we can solve the problem with generators.
 
 ## What is a Generator?
-A generator is a function that when called, returns an iterator. This may sound simple at first, but because of the way that python uses iterators in core language constructs, like for-loops and comprehensions, and all of its core collection-types (lists, dictionaries, sets, tuples??), having an easy way to create custom iterators allows one to use python to its fullest (say this better). Let's look at a familiar example, the for-loop:
+A generator is a function that when called, returns an iterator. This may sound simple at first, but because of the way that python uses iterators in core language constructs, like for-loops and comprehensions, and all of its core collection-types (lists, dictionaries, sets, tuples??), having an easy way to create custom iterators allows one to use python to its fullest. Let's look at a familiar example, the for-loop:
 
 ```python
 # print 1 to 3, each on its own line
